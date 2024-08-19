@@ -1,0 +1,48 @@
+__S0 200 0 ABS 0
+__S1 0 0 ABS 0
+__S3 0 0 ABS 0
+__Hreset_vector 1 0 CODE 0
+__Lreset_vector 0 0 CODE 0
+__Hcode 2 0 ABS 0
+__Lcode 2 0 ABS 0
+__Hdata 2 0 ABS 0
+__Ldata 2 0 ABS 0
+__Hudata_bank0 2 0 ABS 0
+__Ludata_bank0 2 0 ABS 0
+__H__absolute__ 0 0 ABS 0
+__L__absolute__ 0 0 ABS 0
+__Hedata 2 0 ABS 0
+__Ledata 2 0 ABS 0
+__Hudata 2 0 ABS 0
+__Ludata 2 0 ABS 0
+__Hspace_0 200 0 ABS 0
+__Lspace_0 0 0 ABS 0
+__Hspace_1 0 0 ABS 0
+__Lspace_1 0 0 ABS 0
+__Hspace_3 0 0 ABS 0
+__Lspace_3 0 0 ABS 0
+%segments
+reset_vector 0 1 CODE 0 0
+code 3DE 3FF CODE 3DE 0
+%locals
+build/default/debug/fib.o
+fib.s
+17 1EF 0 CODE 0
+18 1F0 0 CODE 0
+19 1F1 0 CODE 0
+20 1F2 0 CODE 0
+21 1F3 0 CODE 0
+22 1F4 0 CODE 0
+23 1F5 0 CODE 0
+25 1F6 0 CODE 0
+26 1F7 0 CODE 0
+27 1F8 0 CODE 0
+28 1F9 0 CODE 0
+29 1FA 0 CODE 0
+30 1FB 0 CODE 0
+31 1FC 0 CODE 0
+32 1FD 0 CODE 0
+33 1FE 0 CODE 0
+34 1FF 0 CODE 0
+6 0 0 CODE 0
+7 0 0 CODE 0

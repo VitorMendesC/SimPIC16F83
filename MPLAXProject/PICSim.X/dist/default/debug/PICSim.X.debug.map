@@ -1,0 +1,98 @@
+Microchip MPLAB XC8 PIC(R) Assembler V2.46
+
+Linker command line:
+
+-W-3 --edf=D:\Programs\Microchip\xc8\v2.46\pic\dat\20240104201356_en.msgs \
+  -cs -h+dist/default/debug\PICSim.X.debug.sym \
+  --cmf=dist/default/debug\PICSim.X.debug.cmf -z -Q16F83 \
+  -oC:\Users\V\AppData\Local\Temp\xcAslo0.\driver_tmp_3.o -preset_vector=0 \
+  --fixupoverflow=error -ver=XC8 PIC(R) Assembler --fixupoverflow=lstwarn \
+  -Mdist/default/debug/PICSim.X.debug.map -E1 --acfsm=1493 -ACODE=00h-01FFh \
+  -ASTRCODE=00h-01FFh -ASTRING=00h-0FFhx2 -ACONST=00h-0FFhx2 \
+  -AENTRY=00h-0FFhx2 -ABANK0=0Ch-02Dh -ARAM=0Ch-02Dh -AABS1=0Ch-02Fh \
+  -ACOMMON=02Eh-02Fh -ASFR0=00h-0Bh -ASFR1=080h-0ADh -ACONFIG=02007h-02007h \
+  -DCONFIG=2 -AIDLOC=02000h-02003h -DIDLOC=2 -AEEDATA=00h-03Fh/02100h \
+  -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
+  build/default/debug/fib.o 
+
+Object code version is 3.11
+
+Machine type is 16F83
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+build/default/debug/fib.o
+                reset_vector                          0        0        1        0       0
+                code                                1EF      1EF       11      3DE       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                reset_vector                          0        0        1         0
+                code                                1EF      1EF       11         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   BANK0          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+
+        CLASS   COMMON         
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   CONFIG         
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vector                   000000  000001  000001         0       0  CODE        2
+                code                           0001EF  000011  000200       3DE       0  CODE        2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            00C-02D            22           1
+        CODE             001-1EE           1EE           2
+        COMMON           02E-02F             2           1
+        CONFIG           2007-2007             1           2
+        CONST            001-1EE            FF           2
+        EEDATA           2100-213F            40           2
+        ENTRY            001-1EE            FF           2
+        IDLOC            2000-2003             4           2
+        RAM              00C-02D            22           1
+        SFR0             002-00B             A           1
+        SFR1             080-0AD            2E           1
+        STRCODE          001-1EE           1EE           2
+        STRING           001-1EE            FF           2
+
+                                  Symbol Table
+
+__H__absolute__ __absolute__ 000  __Hcode         code         002
+__Hdata         data         002  __Hedata        edata        002
+__Hreset_vector reset_vector 001  __Hspace_0      (abs)        200
+__Hspace_1      (abs)        000  __Hspace_3      (abs)        000
+__Hudata        udata        002  __Hudata_bank0  udata_bank0  002
+__L__absolute__ __absolute__ 000  __Lcode         code         002
+__Ldata         data         002  __Ledata        edata        002
+__Lreset_vector reset_vector 000  __Lspace_0      (abs)        000
+__Lspace_1      (abs)        000  __Lspace_3      (abs)        000
+__Ludata        udata        002  __Ludata_bank0  udata_bank0  002
+__S0            (abs)        200  __S1            (abs)        000
+__S3            (abs)        000  
